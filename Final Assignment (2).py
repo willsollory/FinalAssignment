@@ -381,7 +381,7 @@ def make_graph(tesla_data, tesla_revenue, Tesla):
 # In[79]:
 
 
-def make_graph(gme_data, gme_revenue, Tesla):
+def make_graph(gme_data, gme_revenue, GameStop):
     fig = make_subplots(rows=2, cols=1, shared_xaxes=True, subplot_titles=("Historical Share Price", "Historical Revenue"), vertical_spacing = .3)
     gme_data = gme_data[gme_data.Date <= '2021--06-14']
     gme_revenue = gme_revenue[gme_revenue.Date <= '2021-04-30']
